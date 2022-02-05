@@ -1,12 +1,12 @@
 Çoklu kalıtım base class ın  belli özelliklerini diğer sınıflara aktrabilmesidir
 
-Bu sayede bhiyerarşik bir yapı oluşur
+Bu sayede hiyerarşik bir yapı oluşur
 
-java ve c# ta çoklu kalıtı yok. bunu yerine interface var. Kalıtım interfaceler arasında yapılıyor.Bir interface birden fazla interface i extend edebiliyor.
+Java ve c# ta çoklu kalıtı yok. bunu yerine interface var. Kalıtım interfaceler arasında yapılıyor.Bir interface birden fazla interface i extend edebiliyor.
 Bir sınıf tek sınıfı extend edebiliyorken, birden fazla interface'i implement edebilir.
 Çoklu kalıtımda meydana gelen problemin burada yaşanmamasının sebebi, interface'lerin verisinin olmamasıdır.
 
-çoklu kalıtım karmasık ve anlasılmsı zor kodlara seep olabilir
+Çoklu kalıtım karmasık ve anlasılmsı zor kodlara seep olabilir
 
 D => B,C
 B,C=>A
