@@ -1,0 +1,22 @@
+Çoklu kalıtım base class ın  belli özelliklerini diğer sınıflara aktrabilmesidir
+
+Bu sayede bhiyerarşik bir yapı oluşur
+
+java ve c# ta çoklu kalıtı yok. bunu yerine interface var. Kalıtım interfaceler arasında yapılıyor.Bir interface birden fazla interface i extend edebiliyor.
+Bir sınıf tek sınıfı extend edebiliyorken, birden fazla interface'i implement edebilir.
+Çoklu kalıtımda meydana gelen problemin burada yaşanmamasının sebebi, interface'lerin verisinin olmamasıdır.
+
+çoklu kalıtım karmasık ve anlasılmsı zor kodlara seep olabilir
+
+D => B,C
+B,C=>A
+B ve C A dan türemiş. D sınıfı hem B hem de C den türemiş. B ve C a sınıfındaki bir metodu override ederek kullanır. 
+Buraya kadar normal. Fakat D A nın metodunu override etmezde C nin metodunu mu override edeck C nin metodunu mu?(classlardaki metodlar aynı olmak şartı ile)
+
+Bu sorunun adı Diamond Problem.
+
+Çoklu kalıtımı destekleyen diller var fakat bunun için çeşitli çözümler geliştirmişler ve best practicleri var.(C++,Python ...)
+Hangi sınıfın hangi metodunu çağırak istediğini kendimiz vermemiz gerekiyor.
+Ayrıca destekleyen dillerde çok ileri gitmeden basic tutarak bu işi yapıyor.
+
+Çoklu kalıtımın avantajı azken karmaşıklıgı daha coktur. Bu yüzden Java ve C# ta desteklememektedir.
