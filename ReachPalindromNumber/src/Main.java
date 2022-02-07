@@ -14,7 +14,7 @@ public class Main {
         //num = scan.nextInt();
 
 
-        for (int i = 89; i <= 100; i++) {
+        for (int i = 10; i <= 100; i++) {
             System.out.println("i: "+i);
             int count=0;
             num=i;
